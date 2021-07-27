@@ -1,4 +1,3 @@
 # Online Resume
 
-TODO: add resume.
-
+[view html version](https://guumaster.github.com/resume)

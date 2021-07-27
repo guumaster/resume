@@ -1,0 +1,68 @@
+
+ul.skill span.sk {
+    width: 150px;
+}
+
+ul.skill span.sk.basic {
+    width: 40%;
+}
+
+ul.skill span.sk.moderate {
+    width: 60%;
+}
+
+ul.skill span.sk.advance {
+    width: 70%;
+}
+
+ul.skill span.sk.expert {
+    width: 91%;
+}
+
+ul.skill {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 15px 0;
+
+}
+
+.skill li {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px dotted;
+    padding-top: 5px;
+
+}
+
+ul.skill li span {
+    float: left;
+    width: 130px;
+    margin: 0;
+    padding: 0;
+}
+
+ul.skill li em {
+    float: left;
+    width: 120px;
+    height: 1em;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+
+.column_skill {
+    float: left;
+    width: 280px;
+    padding-left: 45px;
+}
+
+.column_skill h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-family: 'Arvo' sans-serif;
+    color: #898989;
+}
+
+

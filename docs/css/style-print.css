@@ -1,0 +1,46 @@
+/* 
+	Print Stylesheet
+*/
+ 
+	#wrap{ width: 100%; margin: 10px; float: none; }
+	#header, #footer, a#print, a#download{ display:none; }
+	div#header-print { display: block; margin-bottom: 30px;} 
+	h2#what-you-do { margin-top: 20px; padding-left: 20px; font-size: 1.75em;}
+	#content{ padding:0; font-size: 1.15em;}
+	.divider, .divider2	{ height:1px;}
+	.divider2{ margin-bottom:0px; }
+	
+	ul.skill span.sk { width: 150px; text-indent: 0px;}
+
+	.col-1{ width: 100%; }
+	#block-top{ border-top:none; height:25px; margin-bottom:30px;}
+	
+	h2.cv-section-name{ font-size:1.5em; font-weight:bold; border-bottom:none; }
+	h4 { font-size:1em; margin-top:5px;  color: #999;}
+	ul.cv-section-items li.cv-item h4{ margin-right:10px; }
+	
+	ul.cv-section-items li span.l-1,
+	ul.cv-section-items li span.l-2,
+	ul.cv-section-items li span.l-3,
+	ul.cv-section-items li span.l-4,
+	ul.cv-section-items li span.l-5,
+	ul.cv-section-items li span.l-6,
+	ul.cv-section-items li span.l-7{ text-indent:0px; background:none; }
+
+	/* In IE for some reason it printed the tooltip as well when pressing the print button
+	   on the page. Below is the fix for this. */
+		
+	.tipsy{ display:none; margin-left:-9999px; padding:0; background:none; }
+	.tipsy-inner{ display:none; padding:0; background:none; border:none; }
+	.tipsy-north, .tipsy-south, .tipsy-east, .tipsy-west{ display:none; background:none; }	
+	.only-print { display: inherit; }
+
+    .progress { display: none }
+    .skill .label { display: inline; }
+
+    .qr-code {
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: center;
+    }
