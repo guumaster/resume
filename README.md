@@ -1,7 +1,9 @@
 # Online Resume
 
 
-[markdown version](./gustavoandresmarin.resume.md)
+[markdown version](./gustavo-marin.resume.md)
+
+[pdf version](./gustavo-marin.resume.pdf)
 
 [online version](https://guumaster.github.io/resume/)
 
