@@ -1,3 +1,7 @@
 # Online Resume
 
-[view html version](https://guumaster.github.com/resume)
+
+[markdown version](./gustavoandresmarin.resume.md)
+
+[online version](https://guumaster.github.com/resume)
+
