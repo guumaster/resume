@@ -42,6 +42,11 @@ ul.skill li span {
     padding: 0;
 }
 
+ul.skill li span.long {
+    width: inherit;
+    color: #2F6AB3;
+}
+
 ul.skill li em {
     float: left;
     width: 120px;

@@ -53,7 +53,7 @@ blockquote, q {
 
 body {
 
-    background:#D1D1D1 url(../images/bg-body.jpg) repeat top left;
+    background: #D1D1D1 url(../images/bg-body.jpg) repeat top left;
 
     /* Other Background Options
 
@@ -71,10 +71,6 @@ body {
     padding: 25px 0;
     text-align: center;
 
-}
-
-div#header-print {
-    display: none;
 }
 
 a {
@@ -199,7 +195,7 @@ em {
 
 #header {
     background-color: #FFF;
-    padding: 0px 40px 0px 40px;
+    padding: 0 40px 0 40px;
     border-radius: 5px 5px 0 0;
 }
 
@@ -232,13 +228,13 @@ em {
     font: 3em 'Arvo', serif;
     font-weight: bold;
     padding-top: 8px;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     color: #444444;
     margin-bottom: 6px;
 }
 
 #what-you-do {
-    font:1.8em 'Droid Sans', sans-serif;
+    font: 1.8em 'Droid Sans', sans-serif;
     font-weight: bold;
     color: #3279BB;
 }
@@ -253,9 +249,9 @@ em {
     margin-right: 20px;
     margin-top: 4px;
     border: 4px solid white;
-    -webkit-box-shadow: 0px 0px 15px rgba(3, 3, 3, 0.3);
-    -moz-box-shadow: 0px 0px 15px rgba(3, 3, 3, 0.3);
-    box-shadow: 0px 0px 15px rgba(3, 3, 3, 0.3);
+    -webkit-box-shadow: 0 0 15px rgba(3, 3, 3, 0.3);
+    -moz-box-shadow: 0 0 15px rgba(3, 3, 3, 0.3);
+    box-shadow: 0 0 15px rgba(3, 3, 3, 0.3);
     overflow: hidden;
 }
 
@@ -293,7 +289,7 @@ ul#nav li a.active {
 }
 
 #footer {
-    padding: 0px 40px 30px 40px;
+    padding: 0 40px 30px 40px;
     height: 80px;
     border-radius: 0 0 5px 5px;
     background-color: #FFF;
@@ -318,21 +314,20 @@ ul#nav li a.active {
 }
 
 .last {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 li.cv-item p {
     margin-bottom: 1em;
     font-size: 1.2em;
-    text-align: justify;}
+}
 
 li.cv-item ul {
-    list-style: inside;
     padding-bottom: 10px;
     padding-top: 5px;
-    list-style-type: disc;
-    font-family: 'Droid sans' sans-serif;
+    margin-left: 10px;
     font-size: 1.1em;
+    list-style-type: initial;
 }
 
 li.cv-item ol {
@@ -355,6 +350,7 @@ ul.cv-section-items {
 }
 
 ul.cv-section-items li.cv-item, li.cv-item-border {
+    margin-top: 1em;
     border-top: 1px solid #DBDEE2;
     padding: 10px 15px;
 }
@@ -390,6 +386,21 @@ ul.cv-section-items li span.level {
     width: 140px;
     display: block;
     float: left;
+}
+
+
+ul.cv-section-items li  .sub-project .cv-item {
+    list-style: none;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    margin-top: 0;
+    border: none;
+    font-size: 0.9em;
+}
+ul.cv-section-items li  .sub-project .cv-item h3 {
+    padding-top: 0;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 #cv-1 {
@@ -469,12 +480,6 @@ ul.cv-section-items li span.level {
     margin-bottom: 40px;
 }
 
-#social {
-    width: 208px;
-    padding: 5px 5px 15px 5px;
-    border: 1px solid #ccc;
-    background: #f4f4f4 url(../images/bg-tweet.jpg) no-repeat bottom left;
-}
 
 ul#social-media {
     list-style: none;
@@ -494,7 +499,7 @@ ul#social-media li a {
 }
 
 ul#social-media li a.last {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 #contact-form {
@@ -588,7 +593,6 @@ a#print:hover, a#download:hover {
 .only-print {
     display: none;
 }
-
 
 
 .progress {

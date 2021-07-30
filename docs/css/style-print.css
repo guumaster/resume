@@ -2,18 +2,24 @@
 	Print Stylesheet
 */
  
-	#wrap{ width: 100%; margin: 10px; float: none; }
+	#wrap{ width: 100%; margin: 10px; float: none; border: none; box-shadow: none;}
 	#header, #footer, a#print, a#download{ display:none; }
-	div#header-print { display: block; margin-bottom: 30px;} 
+	div#header { display: block; margin-bottom: 60px;}
 	h2#what-you-do { margin-top: 20px; padding-left: 20px; font-size: 1.75em;}
-	#content{ padding:0; font-size: 1.15em;}
+	#content{ padding:0; font-size: 1.15em; border: none; box-shadow: none;}
 	.divider, .divider2	{ height:1px;}
-	.divider2{ margin-bottom:0px; }
+	.divider2{ margin-bottom:0; }
 	
-	ul.skill span.sk { width: 150px; text-indent: 0px;}
+	ul.skill span.sk { width: 150px; text-indent: 0;}
+
 
 	.col-1{ width: 100%; }
 	#block-top{ border-top:none; height:25px; margin-bottom:30px;}
+
+	.page-break{
+		clear: both;
+		page-break-after: always;
+	}
 	
 	h2.cv-section-name{ font-size:1.5em; font-weight:bold; border-bottom:none; }
 	h4 { font-size:1em; margin-top:5px;  color: #999;}
@@ -25,7 +31,8 @@
 	ul.cv-section-items li span.l-4,
 	ul.cv-section-items li span.l-5,
 	ul.cv-section-items li span.l-6,
-	ul.cv-section-items li span.l-7{ text-indent:0px; background:none; }
+	ul.cv-section-items li span.l-7{ text-indent:0; background:none; }
+	ul.cv-section-items li.cv-item, li.cv-item-border  { margin-top: 0; }
 
 	/* In IE for some reason it printed the tooltip as well when pressing the print button
 	   on the page. Below is the fix for this. */
@@ -34,6 +41,7 @@
 	.tipsy-inner{ display:none; padding:0; background:none; border:none; }
 	.tipsy-north, .tipsy-south, .tipsy-east, .tipsy-west{ display:none; background:none; }	
 	.only-print { display: inherit; }
+	.no-print { display: none; }
 
     .progress { display: none }
     .skill .label { display: inline; }
