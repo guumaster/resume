@@ -1,4 +1,4 @@
-# Gustavo Andres Marin
+# Gustavo Marin
 
 ## Senior Software Engineer
 
@@ -12,6 +12,7 @@
 - Social:
     - https://github.com/guumaster
     - https://twitter.com/guumaster
+    - https://www.linkedin.com/in/gustavoandresmarin/
 
 ---
 
@@ -28,6 +29,7 @@
 - Open-source software development knowledge.
 - Team management experience.
 - Experience working in an agile work environment (Scrum or Kanban).
+- Experience working with teams across different time zones.
 
 ---
 
@@ -72,7 +74,7 @@ As a service company, I've been involved on several projects, this is a list of 
 - **Konstellation.io** (Oct 2018 – present)
     - Open-source software to build, deploy and evolve AI solutions at any scale. I have being involved in this project since its beginnings, helping the product owner to shape his vision into a viable MVP software, the architecture and its components, and later its final implementation. This project is a great challenge, as there is no other specific software to help close the gap between science teams and developers and devops teams. As part of this project I am working on several phases, coding Golang services, designing the function as a service approach, as well as helping with the deep integration needed with Kubernetes services and APIs.
 
-    - Keywords: Golang, Node.JS, Python, GraphQL, MongoDB, NATS streaming, Kubernetes, CI/CD, Machine Learning, MLOps.
+    - Keywords: Golang, Node.JS, Python, REST, gRPC, GraphQL, MongoDB, NATS streaming, Kubernetes, GitOps, CI/CD, Machine Learning, MLOps, shell scripting
     - Site: https://www.konstellation.io
 
 
@@ -97,7 +99,7 @@ As a service company, I've been involved on several projects, this is a list of 
 - **Azlo** (Dec 2016 – Jan 2018)
     - This is a startup minded project created inside the BBVA USA incubator providing banking services to small businesses. I arrived to this project after the first MVP was done. I helped in refactoring the code and architecture to make it more robust and scalable. The code base grew to contain dozens of microservices to interact with BBVA APIs from legacy systems and provide better UI and services to end clients. This project involved lots of complex and interest challenges like integrating third party services, interacting with secure KVM storages, syncing data with BBVA storages, setup auto-scaling for app high demands.  
     
-    - Keywords: Node.JS, TDD, E2E, MongoDB, API First, Cloud First, Kubernetes, Infra as code, CI/CD.
+    - Keywords: Node.JS, TDD, E2E, MongoDB, API First, Cloud First, Kubernetes, Infra as code, GitOps, CI/CD.
 
 
 - **Telepizza** (Dec 2015 – Dec 2016)
@@ -114,7 +116,7 @@ Apr 2014 – Aug 2014
 
 In NativeAd I've worked as Development Team Lead helping to evolve the company product, a CMS and a JavaScript library to deliver branded content to high traffic sites like Terra.es, MSN.es, 20minutos.es. I designed and created this unobtrusive JavaScript third-party library coded with NodeJS and transpiled for browsers. Besides coding, I also had team leader responsibilities managing a group of developers, ensuring code quality and alignment between business goals and code features, as well as responsibilities over the full software lifecycle (integrations, deployments, scalability).
 
-- Keywords: JavaScript, Node.JS, MySQL, PHP, Symfony2, DevOps
+- Keywords: JavaScript, Node.JS, MySQL, PHP, Symfony2, DevOps, shell scripting
 
 
 #### PRISA DIGITAL
@@ -132,7 +134,7 @@ In 2012 was assigned to the Push Notification project. A cloud system to create,
 
 Since 2013 I was involved in the development of Canal+ Web Live Streaming and VOD platform.
 
-- Keywords: JavaScript, jQuery, ExtJS, XML, MySQL, PHP, Pear, Zend
+- Keywords: JavaScript, jQuery, ExtJS, XML, MySQL, PHP, Pear, Zend, shell scripting
 
 
 #### FIAT AUTO ESPAÑA
@@ -174,7 +176,7 @@ Feb 1999 - May 2000
 
 Web hosting company. In this company I worked as server administrator and technical support to our customers, performing administration tasks of Apache on Cobalt RAQ servers, new sites configuration, user and sites management, DNS configuration. Also performing as a webmaster for several of our customers and the company's main site in Argentina.
  
-- Keywords: HTML, PHP, MySQL, Apache, Linux, ssh
+- Keywords: HTML, PHP, MySQL, Apache, Linux, shell scripting
 
 
 ---
@@ -203,7 +205,7 @@ Web hosting company. In this company I worked as server administrator and techni
 - Devops and Infra
   - Kubernetes, Helm, Operators, AWS
   - Docker, Docker-compose
-  - Gitlab CI, Github Actions
+  - GitOps, Gitlab CI, Github Actions
 
 
 ---
