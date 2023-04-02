@@ -6,8 +6,8 @@
 
 ### Personal info
 
-- Nationality: Italian / Argentinian
-- City: Madrid, Spain
+- Nationality: Italian
+- Location: Madrid, Spain
 - Email: gustavoandresmarin@gmail.com
 - Social:
     - https://github.com/guumaster
@@ -59,10 +59,27 @@ Node.JS and PHP.
 
 ### Work Experience
 
+#### ThoughtWorks 
+
+**Lead Consultant Developer | Senior Software Engineer**
+Feb 2022 - Present
+
+ThoughtWorks is a global software consultancy known for delivering innovative solutions through Agile and Lean methodologies. 
+
+- **Personio** (Oct 2022 - present)
+Personio is a leading HR and payroll software provider based in Germany, I'm responsible for implementing complex proration rules in the payroll domain. Developing the related microservices in Kotlin and extracting functionality from a big PHP monolith.
+    - Keywords: Kotlin, gRPC, Cucumber, GitlabCI, Split.IO, Datadog.
+
+
+- **Motability UK** (Jan 2022 - Sep 2022)
+During my time as a DevOps Engineer at Motability, a national charity that provides vehicles and mobility solutions to disabled people in the UK, I was responsible for creating software solutions to help upgrade and migrate their  cloud platform and improve the overall maintainability of their systems. I collaborated closely with the development team to implement best practices for continuous integration and deployment, as well as streamline their release process.
+    - Keywords: Golang, Node.JS, OpenShift, Shell Scripting, 1Password, ArgoCD, Jenkins, Groovy.
+
+
 #### Intelygenz
 
 **Technical Lead | Senior Software Engineer**
-Sep 2014 – present
+Sep 2014 – Jan 2022
 
 Intelygenz is a service company, I started working here as Technical Team Lead for backend Node.JS projects. At that  time, it was very innovative for companies to switch from other languages to Node.
 
