@@ -2,28 +2,29 @@
 	Print Stylesheet
 */
  
-	#wrap{ width: 100%; margin: 10px; float: none; border: none; box-shadow: none;}
+	body { background: none; font-size: 0.65em; text-align: center; }
+	#wrap{ width: 95%; margin: 1em; float: none; border: none; box-shadow: none;}
 	#header, #footer, a#print, a#download{ display:none; }
-	div#header { display: block; margin-bottom: 60px;}
-	h2#what-you-do { margin-top: 20px; padding-left: 20px; font-size: 1.75em;}
-	#content{ padding:0; font-size: 1.15em; border: none; box-shadow: none;}
+	div#header { display: block; margin-bottom: 2em;}
+	h2#what-you-do { font-size: 1.5em;}
+	#content{ padding:0; border: none; box-shadow: none;}
 	.divider, .divider2	{ height:1px;}
 	.divider2{ margin-bottom:0; }
 	
-	ul.skill span.sk { width: 150px; text-indent: 0;}
+	ul.skill span.sk { width: 2em; text-indent: 0;}
 
+	#name { font-size: 2em; }
 
-	.col-1{ width: 100%; }
-	#block-top{ border-top:none; height:25px; margin-bottom:30px;}
+	#block-top{ border-top:none; height:1em; margin-bottom:2em;}
 
 	.page-break{
 		clear: both;
 		page-break-after: always;
 	}
 	
-	h2.cv-section-name{ font-size:1.5em; font-weight:bold; border-bottom:none; }
-	h4 { font-size:1em; margin-top:5px;  color: #999;}
-	ul.cv-section-items li.cv-item h4{ margin-right:10px; }
+	h2.cv-section-name{ font-weight:bold; border-bottom:none; }
+	h4 { font-size:1em; margin-top:5px; color: #999;}
+	ul.cv-section-items li.cv-item h4{ margin-right:0.5em; padding-top: 0.4em; }
 	
 	ul.cv-section-items li span.l-1,
 	ul.cv-section-items li span.l-2,
@@ -32,23 +33,31 @@
 	ul.cv-section-items li span.l-5,
 	ul.cv-section-items li span.l-6,
 	ul.cv-section-items li span.l-7{ text-indent:0; background:none; }
-	ul.cv-section-items li.cv-item, li.cv-item-border  { margin-top: 0; }
+	ul.cv-section-items li.cv-item, li.cv-item-border  { margin-top: 0; padding: 0.3em;}
 
 	/* In IE for some reason it printed the tooltip as well when pressing the print button
 	   on the page. Below is the fix for this. */
-		
-	.tipsy{ display:none; margin-left:-9999px; padding:0; background:none; }
-	.tipsy-inner{ display:none; padding:0; background:none; border:none; }
-	.tipsy-north, .tipsy-south, .tipsy-east, .tipsy-west{ display:none; background:none; }	
-	.only-print { display: inherit; }
+
+    .only-print { display: inherit; }
 	.no-print { display: none; }
 
     .progress { display: none }
-    .skill .label { display: inline; }
+    .skill .label { display: inline; width: 4.5em;  }
 
+	#personal-info {
+		padding: 0;
+	}
     .qr-code {
         position: absolute;
-        top: 0;
+        top: -3em;
         right: 0;
         text-align: center;
     }
+	.qr-code a {
+		display: block;
+		height: 1px;
+		line-height: 0.6em;
+	}
+	.qr-code img {
+		width: 11em;
+	}

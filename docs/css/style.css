@@ -11,7 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     outline: 0;
     font-weight: inherit;
     font-style: inherit;
-    font-size: 100%;
+    font-size: 1em;
     font-family: inherit;
     vertical-align: baseline
 }
@@ -89,7 +89,7 @@ em {
     font-style: italic;
 }
 
-/* Clear Fix Hack - add  class="fixed"  to div's that have floated elements in them */
+/* Clear Fix Hack - add class="fixed" to div's that have floated elements in them */
 .fixed:after {
     content: ".";
     display: block;
@@ -102,7 +102,6 @@ em {
     display: block;
 }
 
-/*  \*/
 .fixed {
     min-height: 1%;
 }
@@ -148,15 +147,7 @@ em {
 }
 
 .col-1 {
-    width: 700px;
-}
-
-.col-2 {
-    width: 460px;
-}
-
-.col-3 {
-    width: 220px;
+    width: 100%;
 }
 
 .divider, .divider2 {
@@ -166,6 +157,11 @@ em {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     background-color: #F8F8F8;
+}
+
+.divider.top {
+    margin-left: -1em;
+    margin-right: -1em;
 }
 
 .divider {
@@ -184,7 +180,7 @@ em {
 ----------------------------------*/
 
 #wrap {
-    width: 780px;
+    width: 960px;
     margin: 0 auto;
     z-index: 100;
     position: relative;
@@ -195,7 +191,7 @@ em {
 
 #header {
     background-color: #FFF;
-    padding: 0 40px 0 40px;
+    padding: 0 1em;
     border-radius: 5px 5px 0 0;
 }
 
@@ -208,6 +204,7 @@ em {
 }
 
 #personal-info {
+    padding-left: 2em;
 }
 
 #picture-of-you {
@@ -269,7 +266,7 @@ ul#nav li {
 }
 
 ul#nav li a {
-    font-size: 15px;
+    font-size: 0.88em;
     text-transform: uppercase;
     text-decoration: none;
     color: #ccc;
@@ -310,7 +307,7 @@ ul#nav li a.active {
 ----------------------------------*/
 
 .cv-section {
-    margin-bottom: 25px;
+    margin-bottom: 0.5em;
 }
 
 .last {
@@ -319,14 +316,14 @@ ul#nav li a.active {
 
 li.cv-item p {
     margin-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 li.cv-item ul {
     padding-bottom: 10px;
     padding-top: 5px;
     margin-left: 10px;
-    font-size: 1.1em;
+    font-size: 1em;
     list-style-type: initial;
 }
 
@@ -338,9 +335,8 @@ li.cv-item ol {
 
 h2.cv-section-name {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 0.97em;
     font-family: 'Arvo' sans-serif;
-    padding-bottom: 10px;
     color: #2F6AB3;
 }
 
@@ -352,34 +348,38 @@ ul.cv-section-items {
 ul.cv-section-items li.cv-item, li.cv-item-border {
     margin-top: 1em;
     border-top: 1px solid #DBDEE2;
-    padding: 10px 15px;
 }
 
 ul.cv-section-items li.cv-item h4 {
-    font-size: 1em;
+    font-size: 0.95em;
     float: right;
     font-weight: bold;
     color: #416FD1;
+    margin-top: 0;
 }
 
 ul.cv-section-items li.cv-item h2 {
-    font-size: 1.6em;
+    font-size: 1.1em;
+    padding-top: 0.4em;
     font-weight: bold;
     color: #272D36;
 }
+ul.cv-section-items li.cv-item h2 strong {
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
 
 ul.cv-section-items li.cv-item h3 {
-    font-size: 1.4em;
-    padding-bottom: 9px;
-    padding-top: 6px;
-    font-weight: normal;
+    font-size: 1.1em;
+    padding-bottom: 0.3em;
+    font-weight: bold;
 }
 
 ul.cv-section-items li span.topic {
     font-weight: bold;
     display: block;
     float: left;
-    width: 150px;
 }
 
 ul.cv-section-items li span.level {
@@ -389,102 +389,39 @@ ul.cv-section-items li span.level {
 }
 
 
-ul.cv-section-items li  .sub-project .cv-item {
+ul.cv-section-items li .sub-project .cv-item {
     list-style: none;
     margin-left: 0.4em;
     margin-right: 0.4em;
     margin-top: 0;
     border: none;
-    font-size: 0.9em;
+    font-size: 1em;
 }
-ul.cv-section-items li  .sub-project .cv-item h3 {
-    padding-top: 0;
-    font-size: 1.2em;
+ul.cv-section-items li .sub-project .cv-item h3 {
+    padding-top: 0.1em;
+    font-size: 1em;
     font-weight: bold;
 }
 
-#cv-1 {
-}
-
-#cv-1 ul.cv-section-items li span.level {
+ul.cv-section-items li span.level {
     margin-right: 20px;
 }
 
-#cv-2 {
-}
-
-#cv-2 h2.cv-section-name {
-    border-top: 3px solid #DBDEE2;
-    width: 150px;
-    float: left;
-    padding-top: 15px;
-}
-
-#cv-2 ul.cv-section-items {
-    margin-top: 1px;
-    width: 550px;
-    float: right;
-}
-
-#cv-2 ul.cv-section-items li span.level {
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-#cv-2 #technical-skills ul.cv-section-items li span.topic {
-    width: 370px;
-}
-
-#cv-3 {
-}
-
-#cv-3 h2.cv-section-name {
-    padding-top: 15px;
-    border-top: 6px solid #DBDEE2;
-}
-
-#cv-3 ul.cv-section-items li.cv-item {
-    padding: 10px 1px;
-}
-
-#cv-3 ul.cv-section-items li.cv-item h4 {
-    float: left;
-    width: 150px;
-}
-
-#cv-3 ul.cv-section-items li span.topic {
-    width: 150px;
-}
-
-#cv-3 ul.cv-section-items li span.level {
-    margin-right: 10px;
-}
-
-#cv-3 ul.cv-section-items li.cv-item .cv-item-content {
-    float: right;
-    width: 540px;
-}
-
-#cv-3 #technical-skills ul.cv-section-items li span.topic {
-    float: none;
-    width: 540px;
-    font-size: 16px;
-}
 
 /* =CONTACT
 ----------------------------------*/
 
 #contact {
     border-top: 1px solid #DBDEE2;
-    padding-top: 30px;
-    margin-bottom: 40px;
+    padding-top: 1em;
+    margin-bottom: 1em;
 }
 
 
 ul#social-media {
     list-style: none;
-    height: 26px;
-    margin-top: 20px;
+    height: 1em;
+    margin-top: 1em;
 }
 
 ul#social-media li {
@@ -503,12 +440,12 @@ ul#social-media li a.last {
 }
 
 #contact-form {
-    margin-top: 20px;
+    margin-top: 1em;
 }
 
 #contact-form p {
     clear: both;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 #contact-form input, textarea {
@@ -530,8 +467,8 @@ ul#social-media li a.last {
 
 #formstatus {
     font-weight: 700;
-    font-size: 12px;
-    line-height: 10px;
+    font-size: 0.8em;
+    line-height: 0.7em;
 }
 
 .formstatuserror {
@@ -553,7 +490,7 @@ a#print {
     height: 24px;
     padding: 2px;
     position: absolute;
-    right: 765px;
+    left: -1em;
     text-indent: -9999px;
     top: 271px;
     width: 24px;
@@ -567,7 +504,7 @@ a#download {
     height: 24px;
     padding: 2px;
     position: absolute;
-    right: 765px;
+    left: -1em;
     text-indent: -9999px;
     top: 300px;
     width: 24px;
@@ -575,7 +512,7 @@ a#download {
 }
 
 a#print:hover, a#download:hover {
-    padding-right: 12px;
+    padding-right: 0.8em;
 }
 
 /* no javascript support */
@@ -646,6 +583,5 @@ a#print:hover, a#download:hover {
 }
 
 .skill .label {
-
     display: none;
 }

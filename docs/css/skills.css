@@ -58,14 +58,12 @@ ul.skill li em {
 
 .column_skill {
     float: left;
-    width: 280px;
-    padding-left: 45px;
+    padding-left: 2em;
 }
 
 .column_skill h4 {
-    font-size: 14px;
+    font-size: 0.9em;
     text-transform: uppercase;
-    margin-top: 15px;
     font-family: 'Arvo' sans-serif;
     color: #898989;
 }
