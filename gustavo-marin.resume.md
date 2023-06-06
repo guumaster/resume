@@ -26,7 +26,7 @@
 
 ---
 
-### About
+### About Me
 As a Senior Software Engineer with over 15 years of experience, I have worked with a broad range of technologies and architectures, from simple web apps to cloud native apps making use of multiple programming languages and frameworks. I possess strong leadership and communication abilities.
     
 I prioritise delivering quality software on time and smoothly guiding teams through all stages of the project lifecycle. The technical skills I apply at work, enable me to contribute directly to the project’s success as well as skilfully mentor team members towards their development.
