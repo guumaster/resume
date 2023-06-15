@@ -13,8 +13,80 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-style: inherit;
     font-size: 1em;
     font-family: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
+
+.location-bar {
+    display: flex;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #F8F8F8;
+    position: absolute;
+    font-size: 1.1em;
+    border-radius: 0.1em;
+    margin-top: 1em;
+    width: 100%;
+    z-index: 0;
+    left: 0em;
+  }
+  
+  .single-row {
+    display: flex;
+    list-style: none;
+    padding: 0 1em;
+    margin: 0;
+    line-height: 2.3em;
+  }
+  
+  .single-row li {
+    padding: 0.5em 0;
+    margin-right: 3em;
+    line-height: 2em;
+  }
+
+  .single-row li:first-child {
+    padding-left: 13.5em;
+  }
+
+  .single-row span  {
+    margin: -0.51em 0;
+    padding: 3px;
+    display: inline-flex;
+    width: 1.2em;
+    text-indent: -999px;
+  }
+
+  .single-row span.location {
+    background:
+    url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAInSURBVDiNdZPfS5NRHMY/57xbNtNSNzdcm7JIvZAgMAikLiwqgi6WdLcC77sKor+gGy8Luwu8kqiwrAsrozIQKmg3NvuhWdMtZG7TzF6nbec93Wwy323P1TnP9/k+nPN8zxFUQW9vr9OVyVxosYzTDRb7MlK8yHqbxqLRaN6uFXbiTKDjok8aQxFLhI4gHADRPGpcWmtrUl8d//XzQU2DU6HQ2WMFMXpDS4/dWSkYUnr7S70KT8Tjz0u8LBe5FUPXi80mMOZp4pH7ACZgGHBNiTrPtrxb3rNj0BUIHDyO8BuAQnOrp5P+h/c4eX+U4Z4uFBqXC3q2ZGt3MOivMLAcjmC3Fk0AXwX0XY7g9flo8/vpG7zCfFHXoXAqw2ivvIJS6RXYAPBqSM192yklPsXwFuPKSgrSslZKNUdp8T2RWPjYHloKa8PdimD/02fcXkxQUIqu2GdaAJWHBaden1ta+lFhABBHTy4LjrZpxPnsb3g9vWsS8S3Jan3+cTlnlG/q99a9Mx3OSye08GCDpQQjWH/eaNe59Gb6X2UGwEwqZc6iJ9NobTeI5yCxh4nZ9OzfmicAyDU2TK1LY6Bfi9YSpwqCYalWP2izP2Wau56ztBskk8lcTKg708LaLHFTOQoJJzdnUinTrq8FMdARer8cOKzj7k4d8R+ap8q/AdsUyqAX887BEaleWejmmKMQBipygSoZlLC8kc34Gpt11tBvXyYXn9TS/QcSvtaalEtu1AAAAABJRU5ErkJggg==)
+    no-repeat
+    left center;
+  }
+  .single-row span.email {
+    background:
+    url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD+SURBVDhPxVIrDgJBDB2H5AKbdpklQSKRSI6ARBJOQIJZBw5JgiHBIJFIfjcAgcSScAA0r83MZsN+Aph9yYNO2/em06ypHkTUipi7/1C0xhJfwBsSB6HElsJ7GSMKn+AL8RkG4RqHObgIgqDmBitEk7kNzY4BaFYGPxspWOa+L2hnDixRDz1bf5EaILHXKiBvkrPc4lIJ3AWJWJAxEGCAuuwhbdIgGkXEp88n5hpgkTE485PoGfsBZU9T16bIGDhxLLFMgoYNRh9rEUA8lFzuDtLiMqQXKf9q8K3Yw5tgV0cc+IrEEga5X1sRoZnA5CHvGiChE/xMoo4bqjIY8wbwfW2noJ47LAAAAABJRU5ErkJggg==)
+    no-repeat
+    left center;
+  }
+
+#page-1 {
+    max-width: 46vw;
+    margin-top: 1.5em;
+}
+
+.sidebar {
+    border-radius: 1em 0 0 1em;
+    border: 0.15em solid #bcc1c3;
+    background-color: #e6f7ff;
+    padding: 3.5em 1em;
+    float: right;
+    position: relative;
+    right: 0;
+    top: 5em;
+    height: 65vh;
+    border-right: 0;
+}
+
 
 :focus {
     outline: 0
@@ -66,9 +138,8 @@ body {
     */
 
     color: #454545;
-    font: 12px 'Droid Sans', sans-serif;
-    line-height: 22px;
-    padding: 25px 0;
+    font: 13px 'Droid Sans', sans-serif;
+    line-height: 1.5em;
     text-align: center;
 
 }
@@ -234,35 +305,48 @@ em {
     font: 1.8em 'Droid Sans', sans-serif;
     font-weight: bold;
     color: #3279BB;
+    padding-left: 7.5em;
+
 }
 
 .circle {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 8em;
+    height: 8em;
     display: inline;
     position: relative;
     float: left;
     margin-right: 20px;
-    margin-top: 4px;
-    border: 4px solid white;
+    width: 10em;
+    height: 10em;
+    border: 5px solid white;
     -webkit-box-shadow: 0 0 15px rgba(3, 3, 3, 0.3);
     -moz-box-shadow: 0 0 15px rgba(3, 3, 3, 0.3);
     box-shadow: 0 0 15px rgba(3, 3, 3, 0.3);
     overflow: hidden;
+    z-index: 1;
+}
+
+.circle img {
+    width: 100%;
+
 }
 
 
 ul#nav {
     list-style: none;
+    margin-left: auto;
     float: right;
+    padding-top: 0.3em;
+    padding-right: 0.8em;
 }
 
 ul#nav li {
     display: inline;
-    padding: 9px 4px;
     float: left;
     color: #ccc;
+    padding: 0 0.3em;
+
 }
 
 ul#nav li a {
@@ -282,7 +366,7 @@ ul#nav li a.active {
 
 #content {
     background-color: #FFF;
-    padding: 30px 40px 30px 40px;
+    padding: 3em 4em;
 }
 
 #footer {
@@ -492,7 +576,7 @@ a#print {
     position: absolute;
     left: -1em;
     text-indent: -9999px;
-    top: 271px;
+    top: 16em;
     width: 24px;
     z-index: 110;
 }
@@ -506,7 +590,7 @@ a#download {
     position: absolute;
     left: -1em;
     text-indent: -9999px;
-    top: 300px;
+    top: 18.3em;
     width: 24px;
     z-index: 111;
 }

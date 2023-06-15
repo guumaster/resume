@@ -2,11 +2,11 @@
 	Print Stylesheet
 */
  
-	body { background: none; font-size: 0.65em; text-align: center; }
-	#wrap{ width: 95%; margin: 1em; float: none; border: none; box-shadow: none;}
+	body { background: none; font-size: 0.8em; line-height: 1.5em; text-align: center; }
+	#wrap{ width: 97%; margin: 1em; float: none; border: none; box-shadow: none;}
 	#header, #footer, a#print, a#download{ display:none; }
 	div#header { display: block; margin-bottom: 2em;}
-	h2#what-you-do { font-size: 1.5em;}
+	h2#what-you-do { font-size: 1.5em; padding: 0;}
 	#content{ padding:0; border: none; box-shadow: none;}
 	.divider, .divider2	{ height:1px;}
 	.divider2{ margin-bottom:0; }
@@ -17,6 +17,28 @@
 
 	#block-top{ border-top:none; height:1em; margin-bottom:2em;}
 
+	.location-bar {
+		box-shadow: none;
+		border: none;
+	}
+
+	.single-row li:first-child {
+		padding-left:0;
+	}
+
+	.single-row span {
+		text-indent: inherit;
+		width: inherit;
+		background: none !important;
+	}
+	#page-1 {
+		margin-top: 7em;
+		max-width: 57vw;
+	}
+	
+	.sidebar {
+		border: 0.15em solid #bcc1c3;
+	}
 	.page-break{
 		clear: both;
 		page-break-after: always;

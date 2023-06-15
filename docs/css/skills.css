@@ -22,8 +22,7 @@ ul.skill span.sk.expert {
 ul.skill {
     list-style-type: none;
     margin: 0;
-    padding: 10px 0 15px 0;
-
+    padding-bottom: 0.7em;
 }
 
 .skill li {
@@ -37,7 +36,7 @@ ul.skill {
 
 ul.skill li span {
     float: left;
-    width: 130px;
+    width: 12em;
     margin: 0;
     padding: 0;
 }
@@ -56,16 +55,12 @@ ul.skill li em {
 }
 
 
-.column_skill {
-    float: left;
-    padding-left: 2em;
-}
-
 .column_skill h4 {
-    font-size: 0.9em;
+    font-size: 1.1em;
     text-transform: uppercase;
     font-family: 'Arvo' sans-serif;
     color: #898989;
+    padding-top: 0.8em;
 }
 
 

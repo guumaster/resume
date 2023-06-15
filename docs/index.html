@@ -22,30 +22,45 @@
         <div id="block-top" class="no-print"></div>
         <div id="personal-info" class="fixed">
           <span class="circle no-print">
-            <img src="./images/80x80_face_2023.png" alt="">
+            <img src="./images/profile-picture-2023.120x120.png" alt="">
           </span>
           <h1 id="name">GUSTAVO MARIN</h1>
           <h2 id="what-you-do" class="cv-section-name">Senior Software Engineer</h2>
+
+          <!-- PERSONAL_INFO -->
+          <div class="location-bar">
+            <ul class="single-row">
+              <li >
+                <span class="location" title="Location">Location: </span> Madrid, Spain
+              </li>
+              <li>
+                <span class="email" title="Email">Email: </span>
+                <a href="mailto:gustavoandresmarin@gmail.com">gustavoandresmarin@gmail.com</a>
+              </li>
+            </ul>
+            <ul id="nav" class="fixed no-print">
+              <li>
+                <a href="https://www.linkedin.com/in/gustavoandresmarin/" title="Linked InProfile" class="tip">
+                  <img src="./images/linkedin.png" width="28" height="28" alt="LinkedIn">
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/guumaster/" title="Twitter" class="tip">
+                  <img src="./images/twitter.png" width="28" height="28" alt="twitter icon">
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/guumaster/" title="Github Profile" class="tip">
+                  <img src="./images/github-logo.png" width="28" height="28" alt="github icon">
+                </a>
+              </li>
+            </ul>
+    
+          </div>
+          <!-- /PERSONAL_INFO -->
+
         </div>
-        <ul id="nav" class="fixed no-print">
-          <li></li>
-          <li>
-            <a href="https://www.linkedin.com/in/gustavoandresmarin/" title="Linked InProfile" class="tip">
-              <img src="./images/linkedin.png" width="28" height="28" alt="LinkedIn">
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/guumaster/" title="Twitter" class="tip">
-              <img src="./images/twitter.png" width="28" height="28" alt="twitter icon">
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/guumaster/" title="Github Profile" class="tip">
-              <img src="./images/github-logo.png" width="28" height="28" alt="github icon">
-            </a>
-          </li>
-        </ul>
-        <div class="divider no-print top"></div>
+
         <div>
           <div class="qr-code only-print">
             <a href="https://guumaster.github.io/resume/" title="This Resume in QR code">
@@ -59,27 +74,100 @@
         <a href="https://github.com/guumaster/resume/raw/master/gustavo-marin.resume-2023.pdf" id="download" title="Download Resume" class="tip">Download Resume</a>
       </div>
       <!-- /HEADER -->
+
+      
+      <div class="sidebar">
+        <!-- TECHNICAL_SKILLS -->
+        <div class="cv-section col-1">
+          <h2 class="cv-section-name"> Technical Skills</h2>
+          <ul class="cv-section-items">
+            <li class="cv-item-border">
+              <div class="column_skill">
+                <h4>Programming languages</h4>
+                <ul class="skill">
+                  <li>
+                    <a title="Expert" class="tip">
+                      <span>Golang</span>
+                      <em class="progress">
+                        <span class="bar sk expert"></span>
+                      </em>
+                      <span class="label">Expert</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Expert" class="tip">
+                      <span>JavaScript & Node.JS</span>
+                      <em class="progress">
+                        <span class="bar sk expert"></span>
+                      </em>
+                      <span class="label">Expert</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Moderate" class="tip">
+                      <span>Python</span>
+                      <em class="progress">
+                        <span class="bar sk moderate"></span>
+                      </em>
+                      <span class="label">Moderate</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a title="Basic" class="tip">
+                      <span>TypeScript</span>
+                      <em class="progress">
+                        <span class="bar sk basic"></span>
+                      </em>
+                      <span class="label">Basic</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="column_skill">
+                <h4>Databases, messaging &amp; tools</h4>
+                <ul class="skill">
+                  <li>
+                    <span class="long">MySQL, PostgreSQL, Redis, Oracle</span>
+                  </li>
+                  <li>
+                    <span class="long">MongoDB, ElasticSearch</span>
+                  </li>
+                  <li>
+                    <span class="long">NATS Streaming, RabbitMQ, ZeroMQ, Kafka</span>
+                  </li>
+                  <li>
+                    <span class="long">GraphQL, Influx, Grafana</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="column_skill">
+                <h4>Devops and Infra</h4>
+                <ul class="skill">
+                  <li>
+                    <span class="long">Kubernetes, Helm, Operators, AWS</span>
+                  </li>
+                  <li>
+                    <span class="long">Docker, Docker-compose</span>
+                  </li>
+                  <li>
+                    <span class="long">GitOps, Gitlab CI, Github Actions</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- /TECHNICAL_SKILLS -->
+      </div>
+
+
       <div id="content" class="fixed">
         <div id="cv-1">
-          <!-- PERSONAL_INFO -->
-          <div class="cv-section col-1 fixed">
-            <h2 class="cv-section-name">Personal Details</h2>
-            <ul class="cv-section-items">
-              <li class="cv-item">
-                <strong class="topic">Nationality:</strong> Italian / Argentinian
-              </li>
-              <li class="cv-item">
-                <strong class="topic">City:</strong> Madrid, Spain
-              </li>
-              <li class="cv-item">
-                <strong class="topic">Email:</strong>
-                <a href="mailto:gustavoandresmarin@gmail.com">gustavoandresmarin@gmail.com</a>
-              </li>
-            </ul>
-          </div>
-          <!-- /PERSONAL_INFO -->
+
+          <div id="page-1">
           <!-- HIGHLIGHTS -->
-          <div class="cv-section col-1 fixed">
+          <div class="cv-section col-1">
             <h2 class="cv-section-name">Highlights</h2>
             <ul class="cv-section-items">
               <li class="cv-item">
@@ -95,7 +183,7 @@
           </div>
           <!-- /HIGHLIGHTS -->
           <!-- PROFILE -->
-          <div class="cv-section col-1 fixed">
+          <div class="cv-section col-1">
             <h2 class="cv-section-name">About Me</h2>
             <ul class="cv-section-items">
               <li class="cv-item">
@@ -106,135 +194,20 @@
             </ul>
           </div>
           <!-- /PROFILE -->
-          <!-- TECHNICAL_SKILLS -->
-          <div class="cv-section col-1 fixed">
-            <h2 class="cv-section-name"> Technical Skills</h2>
-            <ul class="cv-section-items">
-              <li class="cv-item-border">
-                <div class="column_skill">
-                  <h4>Programming languages</h4>
-                  <ul class="skill">
-                    <li>
-                      <a title="Expert" class="tip">
-                        <span>Golang</span>
-                        <em class="progress">
-                          <span class="bar sk expert"></span>
-                        </em>
-                        <span class="label">Expert</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a title="Expert" class="tip">
-                        <span>JavaScript & Node.JS</span>
-                        <em class="progress">
-                          <span class="bar sk expert"></span>
-                        </em>
-                        <span class="label">Expert</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a title="Moderate" class="tip">
-                        <span>Python</span>
-                        <em class="progress">
-                          <span class="bar sk moderate"></span>
-                        </em>
-                        <span class="label">Moderate</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a title="Basic" class="tip">
-                        <span>TypeScript</span>
-                        <em class="progress">
-                          <span class="bar sk basic"></span>
-                        </em>
-                        <span class="label">Basic</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="column_skill">
-                  <h4>Databases, messaging &amp; tools</h4>
-                  <ul class="skill">
-                    <li>
-                      <span class="long">MySQL, PostgreSQL, Redis, Oracle</span>
-                    </li>
-                    <li>
-                      <span class="long">MongoDB, ElasticSearch</span>
-                    </li>
-                    <li>
-                      <span class="long">NATS Streaming, RabbitMQ, ZeroMQ, Kafka</span>
-                    </li>
-                    <li>
-                      <span class="long">GraphQL, Influx, Grafana</span>
-                    </li>
-                  </ul>
-                </div>
-                <div class="column_skill">
-                  <h4>Devops and Infra</h4>
-                  <ul class="skill">
-                    <li>
-                      <span class="long">Kubernetes, Helm, Operators, AWS</span>
-                    </li>
-                    <li>
-                      <span class="long">Docker, Docker-compose</span>
-                    </li>
-                    <li>
-                      <span class="long">GitOps, Gitlab CI, Github Actions</span>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <!-- EDUCATION -->
-          <div class="divider2 no-print"></div>
 
-          <div class="cv-section col-1 fixed">
-            <h2 class="cv-section-name">Education</h2>
-            <ul class="cv-section-items no-separator">
-              <li class="cv-item">
-                <h4>1995 - 1999</h4>
-                <h2>Ingeniería en Sistemas de Información at Universidad Tecnológica Nacional</h3>
-              </li>
-              <li class="cv-item">
-                <h4>1990 - 1994</h4>
-                <h2>Bachiller Técnico at Instituto Politécnico Superior</h3>
-              </li>
-            </ul>
-          </div>
-          <div class="cv-section last col-1 fixed">
-            <h2 class="cv-section-name">Complementary Education</h2>
-            <ul class="cv-section-items no-separator">
-              <li class="cv-item">
-                <h4>2006</h4>
-                <h2>GNU/Linux LPIC-1 Certification at Instituto Novatech Madrid</h2>
-              </li>
-              <li class="cv-item">
-                <h4>1994</h4>
-                <h2>English technical translation at Instituto Politécnico Superior</h2>
-              </li>
-            </ul>
-          </div>
-          <br>
-          <!-- /EDUCATION -->
-
-
-          <div class="page-break"></div>
-          <div class="divider2 no-print"></div>
-          <!-- /TECHNICAL_SKILLS -->
           <!-- WORK_EXPERIENCE -->
-          <div class="cv-section col-1 fixed">
+          <div class="cv-section col-1">
             <h2 class="cv-section-name">Work Experience</h2>
             <ul class="cv-section-items">
               <li class="cv-item">
-                <h4>Feb 2022 - Present</h4>
+                <h4>2022 - 2023</h4>
                 <h2>Technical Lead | Senior Software Engineer</h2>
                 <h3>ThoughtWorks</h3>
                 <p>
                   <strong>Personio DE</strong>: In this Payroll software provider company I'm responsible for implementing complex proration rules in the payroll domain. Developing the related microservices in Kotlin and migrating functionality from a large PHP monolith.
                 </p>
                 <p>
-                  <strong>Motability UK</strong>: Worked as a DevOps Engineer at Motability, a national charity that provides vehicles and mobility solutions to disabled people in the UK, I was responsible for creating software solutions to help upgrade and migrate their cloud platform and improve the overall maintainability of their systems. I collaborated closely with the development team to implement best practices for continuous integration and deployment, as well as streamline their release process.
+                  <strong>Motability UK</strong>: Worked as a DevOps Engineer at an UK-based charity offering mobility solutions to disabled individuals, I developed software solutions to upgrade and migrate their cloud platform. I focused on enhancing system maintainability and worked closely with the development team to implement continuous integration and deployment best practices while streamlining the release process.
                 </p>
                 <ul>
                   <li>
@@ -245,6 +218,18 @@
                   </li>
                 </ul>
               </li>
+              <div class="page-break"></div>
+            
+            </ul>
+          </div>
+          </div>
+          <!-- /  PAGE 1 -->
+
+
+
+          <div class="cv-section col-1 fixed">
+            <ul class="cv-section-items">
+    
               <li class="cv-item">
                 <h4>2018 - 2022</h4>
                 <h2>Technical Lead | Senior Software Engineer</h2>
@@ -256,7 +241,7 @@
                 </p>
                 <ul>
                   <li>
-                    <strong>Keywords</strong>: Golang, Node.JS, Python, REST, gRPC, GraphQL, MongoDB, NATS streaming.
+                    <strong>Tech Stack</strong>: Golang, Node.JS, Python, REST, gRPC, GraphQL, MongoDB, NATS streaming.
                   </li>
                   <li>
                     <strong>Tooling</strong>: Kubernetes, MLOps, GitOps, CI/CD, Machine Learning.
@@ -294,9 +279,6 @@
                 </ul>
               </li>
 
-
-              <div class="page-break"></div>
-
               <li class="cv-item">
                 <h4>2007 - 2014</h4>
                 <h2>Senior Software Engineer</h2>
@@ -320,10 +302,13 @@
                 </p>
                 <ul>
                   <li>
-                    <strong>Keywords</strong>: JavaScript, jQuery, ExtJS, XML, MySQL, PHP, Pear, Zend, shell scripting
+                    <strong>Tech Stack</strong>: JavaScript, jQuery, ExtJS, XML, MySQL, PHP, Pear, Zend, shell scripting
                   </li>
                 </ul>
               </li>
+              <div class="page-break"></div>
+
+
               <li class="cv-item">
                 <h4>2002 - 2006</h4>
                 <h2>Software Engineer</h2>
@@ -359,6 +344,41 @@
           </div>
           <!-- /WORK_EXPERIENCE -->
 
+
+          <!-- EDUCATION -->
+          <div class="divider2 no-print"></div>
+
+          <div class="cv-section col-1 fixed">
+            <h2 class="cv-section-name">Education</h2>
+            <ul class="cv-section-items no-separator">
+              <li class="cv-item">
+                <h4>1995 - 1999</h4>
+                <h2>Ingeniería en Sistemas de Información at Universidad Tecnológica Nacional</h3>
+              </li>
+              <li class="cv-item">
+                <h4>1990 - 1994</h4>
+                <h2>Bachiller Técnico at Instituto Politécnico Superior</h3>
+              </li>
+            </ul>
+          </div>
+          <div class="cv-section last col-1 fixed">
+            <h2 class="cv-section-name">Complementary Education</h2>
+            <ul class="cv-section-items no-separator">
+              <li class="cv-item">
+                <h4>2006</h4>
+                <h2>GNU/Linux LPIC-1 Certification at Instituto Novatech Madrid</h2>
+              </li>
+              <li class="cv-item">
+                <h4>1994</h4>
+                <h2>English technical translation at Instituto Politécnico Superior</h2>
+              </li>
+            </ul>
+          </div>
+          <br>
+          <!-- /EDUCATION -->
+          
+          <div class="divider2 no-print"></div>
+          
           <!-- HOBBIES -->
           <div class="cv-section last col-1 fixed">
             <h2 class="cv-section-name">Hobbies and Interests</h2>
