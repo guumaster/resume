@@ -33,11 +33,13 @@
 	}
 	#page-1 {
 		margin-top: 7em;
-		max-width: 57vw;
+		margin-bottom: 3em;
+		max-width: 62%;
 	}
 	
 	.sidebar {
 		border: 0.15em solid #bcc1c3;
+
 	}
 	.page-break{
 		clear: both;

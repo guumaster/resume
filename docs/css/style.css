@@ -70,20 +70,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   }
 
 #page-1 {
-    max-width: 46vw;
+    max-width: 67%;
     margin-top: 1.5em;
+    margin-bottom: 12em;
+
+}
+
+#page-1 .cv-section.col-1 {
+    margin-bottom: 3em;
+
 }
 
 .sidebar {
+    font-size: 0.9em;
+
     border-radius: 1em 0 0 1em;
     border: 0.15em solid #bcc1c3;
     background-color: #e6f7ff;
-    padding: 3.5em 1em;
+    padding: 1.5em 0.8em;
     float: right;
     position: relative;
     right: 0;
     top: 5em;
-    height: 65vh;
     border-right: 0;
 }
 
@@ -419,7 +427,7 @@ li.cv-item ol {
 
 h2.cv-section-name {
     text-transform: uppercase;
-    font-size: 0.97em;
+    font-size: 1.3em;
     font-family: 'Arvo' sans-serif;
     color: #2F6AB3;
 }
@@ -455,9 +463,11 @@ ul.cv-section-items li.cv-item h2 strong {
 
 
 ul.cv-section-items li.cv-item h3 {
+    font-style: italic;
     font-size: 1.1em;
-    padding-bottom: 0.3em;
+    padding: 0.3em 0;
     font-weight: bold;
+    color: #2c6aed;
 }
 
 ul.cv-section-items li span.topic {
