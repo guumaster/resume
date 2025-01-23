@@ -37,10 +37,21 @@ I am a problem-solver committed to continuous learning to keep delivering innova
 
 ### Work Experience
 
+#### Monzo UK
+
+** Senior Software Engineer - Product Engineer **
+Jun 2023 - Present
+
+At Monzo UK, I worked in the Growth collective across the Customer Acquisition and CRM Messaging squads. In Customer Acquisition, I developed systems for tracking ad conversions with partners like Google, Meta, Adjust, and TikTok, and integrated a value-based bidding model to optimize ROI. In CRM Messaging, I built a system for personalized daily messaging to over 10 million users, combining business rules with a machine learning model to select the best messages based on user attributes. Additionally, I implemented Statsig experimentation to enable data-driven decision-making and optimize messaging strategies.
+
+    - **Tech Stack**: Golang, TypeScript, GraphQL, Cassandra, Kafka, BigQuery.
+    - **Tools**: Kubernetes, AWS, GCP, Terraform, CI/CD, GitHub Actions, Sentry, Contentful, Statsig, CACI.
+
+
 #### ThoughtWorks 
 
 **Technical Lead | Senior Software Engineer**
-Feb 2022 - Present
+Feb 2022 - Jun 2023
 
 **Personio DE**: In this Payroll software provider company I'm responsible for implementing complex proration rules in the payroll domain. Developing the related microservices in Kotlin and migrating functionality from a large PHP monolith.
 
